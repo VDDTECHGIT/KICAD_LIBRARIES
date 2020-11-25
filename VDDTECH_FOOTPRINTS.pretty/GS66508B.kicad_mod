@@ -1,0 +1,43 @@
+(module GS66508B (layer F.Cu) (tedit 5E1751CD)
+  (fp_text reference REF** (at 2.794 2.032) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value GS66508B (at 2.794 3.81) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.254 -8.636) (end 7.112 -8.636) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.112 -8.636) (end 7.112 0.254) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.112 0.254) (end -0.254 0.254) (layer F.SilkS) (width 0.12))
+  (fp_line (start -0.254 0.254) (end -0.254 -8.636) (layer F.SilkS) (width 0.12))
+  (fp_line (start -0.254 -8.636) (end -0.254 0.254) (layer B.SilkS) (width 0.12))
+  (fp_line (start -0.254 -8.636) (end 7.112 -8.636) (layer B.SilkS) (width 0.12))
+  (fp_line (start 7.112 -8.636) (end 7.112 0.254) (layer B.SilkS) (width 0.12))
+  (fp_line (start 7.112 0.254) (end -0.254 0.254) (layer B.SilkS) (width 0.12))
+  (pad 2 smd custom (at 3.5 -0.5 180) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.5 -0.5) (xy 0.5 1) (xy 3.5 1) (xy 3.5 4.15) (xy -3.45 4.15)
+         (xy -3.45 -0.5)) (width 0))
+    ))
+  (pad 4 smd custom (at 2.06 -0.55 180) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ))
+  (pad 3 smd custom (at 0.55 -0.55 180) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 2 0.5) (xy 2 -0.5) (xy 0 -0.5) (xy 0 0.5)) (width 0))
+    ))
+  (pad 1 smd custom (at 3.475 -7.81) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -3.05 -0.55) (xy -3.05 0.55) (xy 3.05 0.55) (xy 3.05 -0.55)) (width 0))
+    ))
+)

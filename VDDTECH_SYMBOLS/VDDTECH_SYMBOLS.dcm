@@ -1,0 +1,449 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150060RS75000
+D WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
+$ENDCMP
+#
+$CMP 1N4148WS
+D 75V 0.15A Fast switching Diode, SOD-323
+K diode
+F https://www.vishay.com/docs/85751/1n4148ws.pdf
+$ENDCMP
+#
+$CMP 1N4448WS
+D 75V 0.15A Small Signal Fast switching Diode, SOD-323
+K diode
+F https://www.vishay.com/docs/81387/1n4448ws.pdf
+$ENDCMP
+#
+$CMP 74AUP1G07GW-Q100H
+D vp_74AUP1G07_Q100.ditamap - Low-power buffer with open-drain output@en-us
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G07_Q100.pdf
+$ENDCMP
+#
+$CMP ADE02S04-SWITCH-1825058-1_1825058-1
+F S4
+$ENDCMP
+#
+$CMP BAT54C_SOT23
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP C_0603_100n
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
+$ENDCMP
+#
+$CMP C_0603_10n
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
+K X7R capa 0603
+$ENDCMP
+#
+$CMP C_0603_330p
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
+K X7R capa 0603
+$ENDCMP
+#
+$CMP C_0805_10u
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 25VDC 10uF 20% X5R AEC-Q200
+K 10u bypass capa ambient temp ! X5R
+$ENDCMP
+#
+$CMP Conn_02x08_TESTVDDTECH
+D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x08_TESTVDDTECH_SOCKET_SMD
+D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x16_VDDTEST
+D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_DIP24_300mil
+D Generic connector, double row, 02x12
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_DIP24_600mil
+D Generic connector, double row, 02x12
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_MicUSB_Jack_10118193-0001LF
+D USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS
+F https://componentsearchengine.com/Datasheets/1/10118193-0001LF.pdf
+$ENDCMP
+#
+$CMP Conn_Pin_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Pin_01x05
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Pin_02x02
+D Generic connector, double row, 02x04, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Pin_02x04
+D Generic connector, double row, 02x04, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_SMA_Horizontal
+D SMA 90°
+K SMA
+F ~
+$ENDCMP
+#
+$CMP Conn_SMA_Vertical
+D SMA straight
+K SMA
+F ~
+$ENDCMP
+#
+$CMP Connect_Bridge
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Connect_Bridge_HV
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_DO214
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP GANS_66508B
+D N-JFET transistor, gate/source/drain
+K transistor NJFET N-JFET
+F ~
+$ENDCMP
+#
+$CMP GND1
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND2
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_Probe_Bridge
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP GS-065-004-1-L
+D MOSFET 650V, 3.5 A, E-Mode GaN, Engineer Samples
+F https://componentsearchengine.com/Datasheets/1/GS-065-004-1-L.pdf
+$ENDCMP
+#
+$CMP ICM7555
+D CMOS General Purpose Timer, DIP-8/SOIC-8
+K single timer 555
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP ICM7555_copy
+D CMOS General Purpose Timer, DIP-8/SOIC-8
+K single timer 555
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP IZL-102_PDIP24-300
+D Generic connector, double row, 02x12
+K connector
+F ~
+$ENDCMP
+#
+$CMP Jumper_2_Open_VDDTECH
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP LM555
+D Timer, DIP-8/SOIC-8/SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP LM555_ALD_SO08
+D Timer, DIP-8/SOIC-8/SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP LMC555xM
+D CMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xMM
+D CMOS Timer, VSSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xMM_copy
+D CMOS Timer, VSSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xM_copy
+D CMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xN
+D CMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xN_copy
+D CMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP L_radial_5mm_4.7uH
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP Logo_VDDTECH_HOR
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
+$CMP MC1455
+D Timers, DIP-8/SOIC-8
+K timer
+F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
+$ENDCMP
+#
+$CMP MC1455_copy
+D Timers, DIP-8/SOIC-8
+K timer
+F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
+$ENDCMP
+#
+$CMP MIC5225-3.3YM5-TR
+D MICROCHIP - MIC5225-3.3YM5-TR - LDO, REG, 16VIN, 0.15A, 3.3V, 2%, 5SOT23
+$ENDCMP
+#
+$CMP MountM3_ISO
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP MountingHole_M3_VDDTECH
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP MountingHole_M4_VDDTECH
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP NA555
+D Precision Timers, DIP-8/SOIC-8/SSOP-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NA555_copy
+D Precision Timers, DIP-8/SOIC-8/SSOP-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE555
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE555_copy
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NMOS_GDS_LR2905
+D N-MOSFET transistor, gate/drain/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP R_POT_Bourns_3386F
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP SA555
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SA555_copy
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SE555
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SE555_copy
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SW_Toggle_SPDT_NKK_G3T12AH_H
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Open_VDDTECH
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP TL431DBZ
+D Shunt Regulator, SOT-23
+K diode device shunt regulator
+F http://www.ti.com/lit/ds/symlink/tl431.pdf
+$ENDCMP
+#
+$CMP TLC555CD
+D Single LinCMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CD_copy
+D Single LinCMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CP
+D Single LinCMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CPS
+D Single LinCMOS Timer, SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CPS_copy
+D Single LinCMOS Timer, SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CP_copy
+D Single LinCMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TestPoint_Probe
+D test point (alternative probe-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_VDDTECH
+D test point (alternative flag-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_surf
+D test point (alternative flag-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_surf_1p5mm
+D test point (alternative flag-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestProbe
+D test point (alternative flag-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP VCC
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

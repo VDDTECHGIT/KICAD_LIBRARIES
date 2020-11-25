@@ -1,0 +1,17 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"SUPPLIER";"Harwin";"";
+"TraceParts.PartStatus";"Published";"";
+"RS_STOCK_NUMBER";"9094388";"";
+"REVISION";"A";"";
+"DESIGN";"PCB test socket for 2mm dia pin, black";"";
+"TraceParts.InstanceId";"10-29022016-076782ADENRZ6RTKO72TVW1LI35K4ZU";"";
+"TraceParts.PartTitle";"PCB test socket for 2mm dia pin, black";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.PartNumber";"10-29022016-076782";"";
+"REFERENCE";"M3498-98";"";
+"TIMESTAMP";"19/2/2016 17:29:39";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.ClassPath";"/F_RS_COMPONENTS/PSSS_436942/PSS_437249/PSF_437253/";"";

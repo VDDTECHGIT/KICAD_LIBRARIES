@@ -1,0 +1,17 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.9";"";
+"SUPPLIER";"Bourns Electronics";"";
+"TraceParts.PartStatus";"Published";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"RS_STOCK_NUMBER";"5222772P";"";
+"REVISION";"A";"";
+"DESIGN";"3386P top adj cermet trimmer,5K 10mm";"";
+"TraceParts.InstanceId";"10-25042012-085869ILVPZR4PF7GZRE3WS6QNMW6S";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"3386P top adj cermet trimmer,5K 10mm";"";
+"REFERENCE";"3386P-1-502LF";"";
+"TIMESTAMP";"20/05/2016 10:27";"";
+"TraceParts.PartNumber";"10-25042012-085869";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:10-25042012-085869";"";

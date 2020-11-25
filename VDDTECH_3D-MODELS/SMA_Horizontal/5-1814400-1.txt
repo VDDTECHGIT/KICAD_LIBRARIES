@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartVersion";"1.2.4";"";
+"SUPPLIER";"TE Connectivity";"";
+"TraceParts.PartStatus";"Published";"";
+"DEFAULT_LONG_DESCRIPTION";"SMA r/a PCB socket";"";
+"RS_STOCK_NUMBER";"6163400";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.InstanceId";"10-15062010-165273DD6GK70TIFPI79LQX940WUU3C";"";
+"TraceParts.PartTitle";"SMA r/a PCB socket";"";
+"MPN_KITMA";"5-1814400-1";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartNumber";"10-15062010-165273";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:10-15062010-165273";"";

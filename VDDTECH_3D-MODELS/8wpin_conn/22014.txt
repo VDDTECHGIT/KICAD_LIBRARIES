@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.7";"";
+"SUPPLIER";"Preci-Dip";"";
+"TraceParts.PartStatus";"Published";"";
+"RS_STOCK_NUMBER";"7019862P";"";
+"REVISION";"A";"";
+"DESIGN";"8w pin connector 2mm S/R solder";"";
+"TraceParts.InstanceId";"10-16112011-142677HEOAP75R615M29J4526TMVT6";"";
+"TraceParts.PartTitle";"8w pin connector 2mm S/R solder";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.PartNumber";"10-16112011-142677";"";
+"REFERENCE";"830-80-008-10-001101";"";
+"TIMESTAMP";"11/02/2011 15:10:54";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.ClassPath";"/F_RS_COMPONENTS/PSSS_435563/PSS_435683/PSF_435706/";"";

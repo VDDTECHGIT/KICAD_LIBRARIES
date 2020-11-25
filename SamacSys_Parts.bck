@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10118193-0001LF
+D USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS
+F https://componentsearchengine.com/Datasheets/1/10118193-0001LF.pdf
+$ENDCMP
+#
+$CMP 3310C-001-103L
+D Bourns Conductive Plastic Potentiometer 3310C Series with a 3.17 mm Dia. Shaft 10k +/-20% 0.25W +/-1000ppm/C
+F http://uk.rs-online.com/web/p/products/5220439
+$ENDCMP
+#
+$CMP 3310Y-001-103L
+D Bourns Conductive Plastic Potentiometer 3310Y Series with a 3.17 mm Dia. Shaft 10k +/-20% 0.25W +/-1000ppm/C, Linear
+F https://componentsearchengine.com/Datasheets/1/3310Y-001-103L.pdf
+$ENDCMP
+#
+$CMP GS-065-004-1-L
+D MOSFET 650V, 3.5 A, E-Mode GaN, Engineer Samples
+F https://componentsearchengine.com/Datasheets/1/GS-065-004-1-L.pdf
+$ENDCMP
+#
+$CMP MAX31865AAP+
+D Data Acquisition ADCs/DACs - Specialized RTD to Digital Converter in SSOP
+F https://componentsearchengine.com/Datasheets/1/MAX31865AAP+.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+#End Doc Library
