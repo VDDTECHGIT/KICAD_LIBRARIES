@@ -17,6 +17,41 @@ K diode
 F https://www.vishay.com/docs/81387/1n4448ws.pdf
 $ENDCMP
 #
+$CMP 3310C-001-103L
+D Bourns Conductive Plastic Potentiometer 3310C Series with a 3.17 mm Dia. Shaft 10k +/-20% 0.25W +/-1000ppm/C
+F http://uk.rs-online.com/web/p/products/5220439
+$ENDCMP
+#
+$CMP 74AHC1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G02_SOT23
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74AUP1G07GW-Q100H
 D vp_74AUP1G07_Q100.ditamap - Low-power buffer with open-drain output@en-us
 F https://assets.nexperia.com/documents/data-sheet/74AUP1G07_Q100.pdf
@@ -30,6 +65,12 @@ $CMP BAT54C_SOT23
 D dual schottky barrier diode, common cathode
 K schottky diode common cathode
 F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP Barrel_Jack_PJ-102AH
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
 $ENDCMP
 #
 $CMP C_0603_100n
@@ -58,6 +99,12 @@ F ~
 $ENDCMP
 #
 $CMP Conn_02x08_TESTVDDTECH_SOCKET_SMD
+D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x08_TESTVDDTECH_SOCKET_thru
 D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
@@ -194,6 +241,12 @@ $ENDCMP
 $CMP IZL-102_PDIP24-300
 D Generic connector, double row, 02x12
 K connector
+F ~
+$ENDCMP
+#
+$CMP Jack-DC
+D DC Barrel Jack
+K DC power barrel jack connector
 F ~
 $ENDCMP
 #
@@ -355,6 +408,10 @@ $CMP SE555_copy
 D Precision Timers, DIP-8/SOIC-8
 K timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SN6501-Q1
+F https://www.ti.com/lit/gpn/SN6501-Q1
 $ENDCMP
 #
 $CMP SW_Toggle_SPDT_NKK_G3T12AH_H

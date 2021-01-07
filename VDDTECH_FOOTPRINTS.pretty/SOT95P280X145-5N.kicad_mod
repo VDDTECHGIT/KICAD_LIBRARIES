@@ -1,4 +1,4 @@
-(module SOT95P280X145-5N (layer F.Cu) (tedit 5F4E20B8)
+(module SOT95P280X145-5N (layer F.Cu) (tedit 5FF71090)
   (descr "5-Pin SOT23 (M5)_1")
   (tags "Integrated Circuit")
   (attr smd)
@@ -27,4 +27,9 @@
   (pad 3 smd rect (at -1.25 0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.25 0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
+  (model ${VDDTECH_3DMODELS}/SOT23-5/SN6501-Q1.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

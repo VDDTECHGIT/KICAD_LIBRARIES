@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1368275"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-24-11:29:00)
+    (utime 2020-09-28-10:26:35)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "691216710002")
+)
+
+
+(pinAssign "ECS_1368275"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-24-11:29:00)
+    (utime 2020-09-28-10:26:35)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1368275")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "691216710002")
+)
+
+
+(part "691216710002"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-24-11:29:00)
+    (utime 2020-09-28-10:26:35)
+    (packageRef "691216710002")
+    (pinAssignRef "ECS_1368275")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Fixed Terminal Blocks Horizontal 5.00mm CAGE CLAMP WR-TBL")
+    (property "Mouser_Part_Number" "710-691216710002")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691216710002?qs=w%2Fv1CP2dgqr8TDL32Rr4aQ%3D%3D")
+    (property "Manufacturer_Name" "Wurth Elektronik")
+    (property "Manufacturer_Part_Number" "691216710002")
+    (property "Datasheet_Link" "https://katalog.we-online.de/em/datasheet/6912167100XX.pdf")
+    (property "compAreaTopHeight" 13.8)
+)
+
+

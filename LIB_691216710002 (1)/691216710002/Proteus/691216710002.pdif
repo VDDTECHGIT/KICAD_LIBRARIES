@@ -1,0 +1,104 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "691216710002"
+   (description "Fixed Terminal Blocks Horizontal 5.00mm CAGE CLAMP WR-TBL")
+   (family "CON")
+   (package "SHDR2W90P0X500_1X2_1060X980X1380P")
+   (attribute "Datasheet Link" "https://katalog.we-online.de/em/datasheet/6912167100XX.pdf")
+   (attribute "Geometry.Height" "13.8mm")
+   (attribute "Mouser Part Number" "710-691216710002")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691216710002?qs=w%2Fv1CP2dgqr8TDL32Rr4aQ%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "691216710002")
+   (gate
+    (symbol "691216710002")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "691216710002"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SHDR2W90P0X500_1X2_1060X980X1380P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.75 -4.85)
+      (pt -2.75 5.45)
+      (pt 8.65 5.45)
+      (pt 8.65 -4.85)
+      (pt -2.75 -4.85))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 -4.6)
+      (pt -2.5 5.2)
+      (pt 8.4 5.2)
+      (pt 8.4 -4.6)
+      (pt -2.5 -4.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 -4.6)
+      (pt 8.4 -4.6)
+      (pt 8.4 5.2)
+      (pt -2.5 5.2)
+      (pt -2.5 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 5 0) (padstack 0))
+   (padstack 0
+    (hole 1.45)
+    (plated true)
+    (pad (layer TCOP) (round 2.175))
+    (pad (layer INNER) (round 2.175))
+    (pad (layer BCOP) (round 2.175))
+   )
+   (padstack 1
+    (hole 1.45)
+    (plated true)
+    (pad (layer TCOP) (square 2.175))
+    (pad (layer INNER) (round 2.175))
+    (pad (layer BCOP) (square 2.175))
+   )
+   (model "691216710002.stp"
+    (euler 0 0 180)
+    (offset -2.5 -4.599999904632568 0)
+   )
+  )
+ )
+)

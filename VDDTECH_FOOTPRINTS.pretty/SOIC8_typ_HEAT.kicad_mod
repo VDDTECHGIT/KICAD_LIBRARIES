@@ -1,4 +1,4 @@
-(module SOIC8_typ_HEAT (layer F.Cu) (tedit 5F60D79F)
+(module SOIC8_typ_HEAT (layer F.Cu) (tedit 5FF71795)
   (descr "SOIC08 compatible wide and narrow body no solder stop bot and top side. pads with via for mech resistance  ")
   (tags "SOIC8 IZL10T1A")
   (attr smd)
@@ -44,5 +44,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${VDDTECH_3DMODELS}/SO-8/LT1763CS8-5#TRPBF.STEP
+    (offset (xyz 2.25 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
   )
 )

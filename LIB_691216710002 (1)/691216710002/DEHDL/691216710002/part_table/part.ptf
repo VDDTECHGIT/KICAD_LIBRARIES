@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '691216710002'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "691216710002" (!) = "", "SHDR2W90P0X500_1X2_1060X980X1380P", "Header, Shrouded - Straight PTH Box", "710-691216710002", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691216710002?qs=w%2Fv1CP2dgqr8TDL32Rr4aQ%3D%3D", "Fixed Terminal Blocks Horizontal 5.00mm CAGE CLAMP WR-TBL", "https://katalog.we-online.de/em/datasheet/6912167100XX.pdf", "13.8 mm"
+END_PART
+
+END.
