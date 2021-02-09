@@ -97,8 +97,8 @@ K 10u bypass capa ambient temp ! X5R
 $ENDCMP
 #
 $CMP C_0805_1u
-D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 25VDC 10uF 20% X5R AEC-Q200
-K 10u bypass capa ambient temp ! X5R
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 1uF X7R 0805 5%
+K 1u bypass capa ambient temp ! X7R
 $ENDCMP
 #
 $CMP Conn_02x08_TESTVDDTECH
