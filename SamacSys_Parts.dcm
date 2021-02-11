@@ -30,4 +30,8 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP UJ3N120070K3S
+F https://www.mouser.es/datasheet/2/827/DS_UJ3N120070K3S-1530204.pdf
+$ENDCMP
+#
 #End Doc Library
