@@ -77,6 +77,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Battery_Cell_9V
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
 $CMP C_0603_100n
 D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
 $ENDCMP

@@ -1,4 +1,4 @@
-(module Conn_9V_batt_contacts (layer F.Cu) (tedit 5E26C5FE)
+(module Conn_9V_batt_contacts (layer F.Cu) (tedit 6049F127)
   (descr https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf)
   (tags "9V Battery Holder")
   (fp_text reference REF** (at -24.13 -24.13) (layer F.SilkS)
@@ -54,5 +54,20 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${VDDTECH_3DMODELS}/batterycell_9V/9v Duracell Body-Plain.STEP"
+    (offset (xyz -53 5 18))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 90 0))
+  )
+  (model ${VDDTECH_3DMODELS}/batterycell_9V/594.stp
+    (offset (xyz 1.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+  (model ${VDDTECH_3DMODELS}/batterycell_9V/594.stp
+    (offset (xyz 1.5 12.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
   )
 )
