@@ -545,10 +545,26 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP NRPV02_DIL_pads_02x22
+D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP NRPV02_Die
+D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP NRPV02_Socket_02x24
 D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP RMB6S-TP
+F https://www.mccsemi.com/pdf/Products/RMB2S-RMB6S(MBS-1).pdf
 $ENDCMP
 #
 $CMP R_POT_Bourns_3386F
