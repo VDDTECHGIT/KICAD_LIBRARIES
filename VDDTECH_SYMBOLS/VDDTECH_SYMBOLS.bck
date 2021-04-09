@@ -22,6 +22,10 @@ D Bourns Conductive Plastic Potentiometer 3310C Series with a 3.17 mm Dia. Shaft
 F http://uk.rs-online.com/web/p/products/5220439
 $ENDCMP
 #
+$CMP 4300.0104
+F https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_2570.pdf
+$ENDCMP
+#
 $CMP 74AHC1G02
 D Single NOR Gate, Low-Voltage CMOS
 K Single Gate NOR LVC CMOS
@@ -57,6 +61,10 @@ D vp_74AUP1G07_Q100.ditamap - Low-power buffer with open-drain output@en-us
 F https://assets.nexperia.com/documents/data-sheet/74AUP1G07_Q100.pdf
 $ENDCMP
 #
+$CMP 7508111323
+F https://www.we-online.com/catalog/datasheet/7508111323.pdf
+$ENDCMP
+#
 $CMP 760390012
 F https://katalog.we-online.com/ctm/datasheet/760390012.pdf
 $ENDCMP
@@ -83,11 +91,29 @@ K battery cell
 F ~
 $ENDCMP
 #
+$CMP CAY16-221J4AS
+F https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf
+$ENDCMP
+#
+$CMP CMF1.1111.12
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/376234.pdf
+$ENDCMP
+#
 $CMP C_0603_100n
 D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
 $ENDCMP
 #
+$CMP C_0603_100p
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
+K X7R capa 0603
+$ENDCMP
+#
 $CMP C_0603_10n
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
+K X7R capa 0603
+$ENDCMP
+#
+$CMP C_0603_1u
 D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
 K X7R capa 0603
 $ENDCMP
@@ -105,6 +131,22 @@ $ENDCMP
 $CMP C_0805_1u
 D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 1uF X7R 0805 5%
 K 1u bypass capa ambient temp ! X7R
+$ENDCMP
+#
+$CMP C_1206_2u2_100V
+F https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf
+$ENDCMP
+#
+$CMP Capa_Pola_10u_350V
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_02x04_SOCKET_SMD
+D piutch 2.54mm double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
 $ENDCMP
 #
 $CMP Conn_02x08_TESTVDDTECH
@@ -172,6 +214,24 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_Pin_02x04_odd_even
+D Generic connector, double row, 02x04, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Pin_02x04_odd_even_hor
+D Generic connector, double row, 02x04, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Pin_02x08_odd_even_hor
+D Generic connector, double row, 02x04, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_SMA_Horizontal
 D SMA 90°
 K SMA
@@ -214,10 +274,21 @@ K diode Schottky
 F ~
 $ENDCMP
 #
+$CMP Fuse_1206
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
 $CMP GANS_66508B
 D N-JFET transistor, gate/source/drain
 K transistor NJFET N-JFET
 F ~
+$ENDCMP
+#
+$CMP GANS_GS-065-004-1-L
+D MOSFET 650V, 3.5 A, E-Mode GaN, Engineer Samples
+F https://componentsearchengine.com/Datasheets/1/GS-065-004-1-L.pdf
 $ENDCMP
 #
 $CMP GND1
@@ -269,6 +340,12 @@ $CMP Jumper_2_Open_VDDTECH
 D Jumper, 2-pole, open
 K Jumper SPST
 F ~
+$ENDCMP
+#
+$CMP LDO_5V_TPS76350
+D Low power 150mA LDO, 1.6V fixed output voltage, SOT-23-5
+K linear low dropout Regulator
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
 $ENDCMP
 #
 $CMP LF120_TO220
@@ -335,6 +412,48 @@ $CMP LF90_TO220
 D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 9.0V, TO-220
 K LDO regulator voltage
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LK112M18TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.8V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M25TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 2.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M33TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 3.3V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M50TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M55TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M60TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 6.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M80TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 8.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
 $ENDCMP
 #
 $CMP LM2937xT
@@ -469,6 +588,18 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
+$CMP LR8N8-G_VDD
+D 30mA 450V High-Voltage Linear Regulator (Adjustable), SOT-89
+K High-Voltage Regulator Adjustable Positive
+F https://www.mouser.be/datasheet/2/268/20005399A-909415.pdf
+$ENDCMP
+#
+$CMP L_Pow_rad_5mm_100uH_2A
+D Inductor
+K inductor choke coil reactor magnetic
+F https://www.mouser.be/datasheet/2/597/dr0810-463383.pdf
+$ENDCMP
+#
 $CMP L_radial_5mm_4.7uH
 D Inductor
 K inductor choke coil reactor magnetic
@@ -563,10 +694,22 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP RMB6S-TP
+F https://www.mccsemi.com/pdf/Products/RMB2S-RMB6S(MBS-1).pdf
+$ENDCMP
+#
 $CMP R_POT_Bourns_3386F
 D Potentiometer
 K resistor variable
 F ~
+$ENDCMP
+#
+$CMP Rarray_10K
+F https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf
+$ENDCMP
+#
+$CMP Rarray_16K
+F https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf
 $ENDCMP
 #
 $CMP SA555
@@ -591,6 +734,24 @@ $CMP SE555_copy
 D Precision Timers, DIP-8/SOIC-8
 K timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X007T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
 $CMP SN6501-Q1
@@ -624,6 +785,12 @@ $ENDCMP
 $CMP SolderJumper_3_Open
 D Solder Jumper, 3-pole, open
 K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP TFO_CS_1P_1S_B82801A1
+D Transformer, single primary, single secondary
+K transformer coil magnet
 F ~
 $ENDCMP
 #
@@ -669,6 +836,102 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
+$CMP TPS76318
+D Low power 150mA LDO 1.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76318_copy
+D Low power 150mA LDO 1.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76325
+D Low power 150mA LDO 2.5V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76325_copy
+D Low power 150mA LDO 2.5V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76327
+D Low power 150mA LDO 2.7V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76327_copy
+D Low power 150mA LDO 2.7V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76329
+D Low power 150mA LDO 2.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76329_copy
+D Low power 150mA LDO 2.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76330
+D Low power 150mA LDO 3.0V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76330_copy
+D Low power 150mA LDO 3.0V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76333
+D Low power 150mA LDO 3.3V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76333_copy
+D Low power 150mA LDO 3.3V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76338
+D Low power 150mA LDO 3.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76338_copy
+D Low power 150mA LDO 3.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76350
+D Low power 150mA LDO 5.0V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76350_copy
+D Low power 150mA LDO 5.0V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
 $CMP TestPoint_Probe
 D test point (alternative probe-style design)
 K test point tp
@@ -699,9 +962,23 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP UCC28950TPWRQ1
+F http://www.ti.com/lit/ds/symlink/ucc28950-q1.pdf
+$ENDCMP
+#
+$CMP V8PAM10S-M3_H
+F https://www.vishay.com/docs/87013/v8pam10s.pdf
+$ENDCMP
+#
 $CMP VCC
 D Power symbol creates a global label with name "VCC"
 K power-flag
+$ENDCMP
+#
+$CMP otpo__VOS615BT_smd
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
 #End Doc Library
