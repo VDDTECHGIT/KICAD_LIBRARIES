@@ -149,6 +149,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x08_Hbridge_SOCKET_SMD
+D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_02x08_TESTVDDTECH
 D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -252,6 +258,18 @@ $ENDCMP
 #
 $CMP Connect_Bridge_HV
 D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIL28_pins
+D Generic connectable mounting pin connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIL28_pins_copy
+D Generic connectable mounting pin connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
