@@ -342,6 +342,18 @@ K single timer 555
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
 $ENDCMP
 #
+$CMP IRFI4020H_copy
+D 9.1A Id, 200V Vds, 80mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET Half-Bridge
+F https://www.infineon.com/dgdl/irfi4020h-117p.pdf?fileId=5546d462533600a401535623e7271f73
+$ENDCMP
+#
+$CMP IRFI4212H_copy
+D 11A Id, 100V Vds, 58mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET Half-Bridge
+F https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
+$ENDCMP
+#
 $CMP IZL-102_PDIP24-300
 D Generic connector, double row, 02x12
 K connector
@@ -993,29 +1005,16 @@ D Power symbol creates a global label with name "VCC"
 K power-flag
 $ENDCMP
 #
-$CMP otpo__VOS615BT_smd
-D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
-K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
-F http://www.vishay.com/docs/83740/sfh617a.pdf
-$ENDCMP
-#
-#
-$CMP IRFI4020H_copy
-D 9.1A Id, 200V Vds, 80mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
-K Dual N-Channel MOSFET Half-Bridge
-F https://www.infineon.com/dgdl/irfi4020h-117p.pdf?fileId=5546d462533600a401535623e7271f73
-$ENDCMP
-#
-$CMP IRFI4212H_copy
-D 11A Id, 100V Vds, 58mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
-K Dual N-Channel MOSFET Half-Bridge
-F https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
-$ENDCMP
-#
 $CMP WI65100A
 D 8.7A Id, 150V Vds, 80mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
 K Dual N-Channel MOSFET Half-Bridge
 F https://www.infineon.com/dgdl/irfi4019h-117p.pdf?fileId=5546d462533600a401535623d74d1f6f
+$ENDCMP
+#
+$CMP otpo__VOS615BT_smd
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
 #End Doc Library
