@@ -91,6 +91,10 @@ K battery cell
 F ~
 $ENDCMP
 #
+$CMP Bridge_rectifier
+F https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_2570.pdf
+$ENDCMP
+#
 $CMP CAY16-221J4AS
 F https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf
 $ENDCMP
@@ -330,6 +334,12 @@ D MOSFET 650V, 3.5 A, E-Mode GaN, Engineer Samples
 F https://componentsearchengine.com/Datasheets/1/GS-065-004-1-L.pdf
 $ENDCMP
 #
+$CMP Header_02x08_2.54
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP ICM7555
 D CMOS General Purpose Timer, DIP-8/SOIC-8
 K single timer 555
@@ -376,6 +386,11 @@ $CMP LDO_5V_TPS76350
 D Low power 150mA LDO, 1.6V fixed output voltage, SOT-23-5
 K linear low dropout Regulator
 F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP LED_SMD
+D WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
 $ENDCMP
 #
 $CMP LF120_TO220
@@ -718,10 +733,25 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP NRPV02_Die_adapt_socket
+D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP NRPV02_Socket_02x24
 D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP NZL300-die
+F https://www.ti.com/lit/gpn/SN6501-Q1
+$ENDCMP
+#
+$CMP POT-3310C-001-103L
+D Bourns Conductive Plastic Potentiometer 3310C Series with a 3.17 mm Dia. Shaft 10k +/-20% 0.25W +/-1000ppm/C
+F http://uk.rs-online.com/web/p/products/5220439
 $ENDCMP
 #
 $CMP RMB6S-TP
@@ -990,6 +1020,10 @@ $CMP TestProbe
 D test point (alternative flag-style design)
 K test point tp
 F ~
+$ENDCMP
+#
+$CMP Transfo_Phaseshift
+F https://www.we-online.com/catalog/datasheet/7508111323.pdf
 $ENDCMP
 #
 $CMP UCC28950TPWRQ1
