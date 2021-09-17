@@ -818,6 +818,12 @@ $CMP SN6501-Q1
 F https://www.ti.com/lit/gpn/SN6501-Q1
 $ENDCMP
 #
+$CMP SOCKET_VDDBRIDGE
+D Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP SPX2920U-3.3_TO220
 D 400mA Low drop-out regulator, Fixed Output 3.3V, TO-220
 K REGULATOR LDO 3.3V
