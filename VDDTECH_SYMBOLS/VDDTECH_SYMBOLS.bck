@@ -102,6 +102,7 @@ F https://www.we-online.com/catalog/datasheet/7508111323.pdf
 $ENDCMP
 #
 $CMP 760390012
+D Wurk Elektronik Audio Transformer
 F https://katalog.we-online.com/ctm/datasheet/760390012.pdf
 $ENDCMP
 #
@@ -762,6 +763,11 @@ K Logo
 F ~
 $ENDCMP
 #
+$CMP MBR0520LT1G
+D MBR0520LT1G, Schottky Diode,  0.5A max, 20V, 2-Pin, SOD-123
+F http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
@@ -848,6 +854,10 @@ $CMP NRPV02_Socket_02x24
 D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP NZL300
+D Transformer driver for isolated power sources
 $ENDCMP
 #
 $CMP NZL300-die
@@ -1117,6 +1127,11 @@ $CMP TPS76350
 D Low power 150mA LDO 5.0V fixed output voltage, SOT-23-5
 K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS76350DBVR
+D LDO Voltage Regulators 5.0V 150mA LDO
+F https://www.ti.com/lit/gpn/TPS763
 $ENDCMP
 #
 $CMP TPS76350_copy
