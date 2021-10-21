@@ -873,6 +873,12 @@ $CMP RMB6S-TP
 F https://www.mccsemi.com/pdf/Products/RMB2S-RMB6S(MBS-1).pdf
 $ENDCMP
 #
+$CMP R_POT
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP R_POT_Bourns_3386F
 D Potentiometer
 K resistor variable
