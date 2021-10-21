@@ -17,6 +17,12 @@ K diode
 F https://www.vishay.com/docs/81387/1n4448ws.pdf
 $ENDCMP
 #
+$CMP 1N4448WS_copy
+D 75V 0.15A Small Signal Fast switching Diode, SOD-323
+K diode
+F https://www.vishay.com/docs/81387/1n4448ws.pdf
+$ENDCMP
+#
 $CMP 3310C-001-103L
 D Bourns Conductive Plastic Potentiometer 3310C Series with a 3.17 mm Dia. Shaft 10k +/-20% 0.25W +/-1000ppm/C
 F http://uk.rs-online.com/web/p/products/5220439
@@ -61,6 +67,36 @@ D vp_74AUP1G07_Q100.ditamap - Low-power buffer with open-drain output@en-us
 F https://assets.nexperia.com/documents/data-sheet/74AUP1G07_Q100.pdf
 $ENDCMP
 #
+$CMP 74AUP1G57_copy
+D Configurable Multi-Function Single Gate, Low-Voltage CMOS
+K Configurable Single Gate LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G97_SOT363
+D Configurable Multi-Function Single Gate, Low-Voltage CMOS
+K Configurable Single Gate LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G97_copy
+D Configurable Multi-Function Single Gate, Low-Voltage CMOS
+K Configurable Single Gate LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97_copy
+D Configurable Multi-Function Single Gate, Low-Voltage CMOS
+K Configurable Single Gate LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G74_SOT833-1
+D 74AUC1G74, Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 7508111323
 F https://www.we-online.com/catalog/datasheet/7508111323.pdf
 $ENDCMP
@@ -89,6 +125,14 @@ $CMP Battery_Cell_9V
 D Single-cell battery
 K battery cell
 F ~
+$ENDCMP
+#
+$CMP Bridge_rect_MDS
+F https://www.mouser.be/datasheet/2/80/CDBHM120L_HF_Thru__CDBHM1100L_HF_RevD-2505349.pdf
+$ENDCMP
+#
+$CMP Bridge_rect_SOIC4
+F https://www.mouser.be/datasheet/2/80/CDBHM120L_HF_Thru__CDBHM1100L_HF_RevD-2505349.pdf
 $ENDCMP
 #
 $CMP Bridge_rectifier
@@ -137,8 +181,17 @@ D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 1uF X7R 0805 5%
 K 1u bypass capa ambient temp ! X7R
 $ENDCMP
 #
+$CMP C_0805_Tan
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 25VDC 10uF 20% X5R AEC-Q200
+K 10u bypass capa ambient temp ! X5R
+$ENDCMP
+#
 $CMP C_1206_2u2_100V
 F https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf
+$ENDCMP
+#
+$CMP C_1210_100nF-630V
+D X7R high voltage capacitor
 $ENDCMP
 #
 $CMP Capa_Pola_10u_350V
@@ -296,6 +349,12 @@ K diode Schottky
 F ~
 $ENDCMP
 #
+$CMP Diode_Schottky_SOD323
+D 75V 0.15A Fast switching Diode, SOD-323
+K diode
+F https://www.vishay.com/docs/85751/1n4148ws.pdf
+$ENDCMP
+#
 $CMP Fuse_1206
 D Fuse
 K fuse
@@ -386,6 +445,10 @@ $CMP LDO_5V_TPS76350
 D Low power 150mA LDO, 1.6V fixed output voltage, SOT-23-5
 K linear low dropout Regulator
 F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP LDO_MIC3490
+D LDO working with ceramic output capacitor (min 2.2u)
 $ENDCMP
 #
 $CMP LED_SMD
@@ -639,6 +702,30 @@ K High-Voltage Regulator Adjustable Positive
 F https://www.mouser.be/datasheet/2/268/20005399A-909415.pdf
 $ENDCMP
 #
+$CMP LTC6992
+D Voltage-Controlled Pulse Width Modulator (PWM), TSOT-23-6
+K Voltage-Controlled Pulse Width Modulator (PWM)
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-2
+D TimerBlox Monostable Pulse Generator (One Shot), Rising-edge input, retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-3
+D TimerBlox Monostable Pulse Generator (One Shot), Falling-edge input, non-retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-4
+D TimerBlox Monostable Pulse Generator (One Shot), Falling-edge input, retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
 $CMP L_Pow_rad_5mm_100uH_2A
 D Inductor
 K inductor choke coil reactor magnetic
@@ -651,7 +738,25 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP Logo_HV
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
 $CMP Logo_VDDTECH_HOR
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
+$CMP Logo_text_EBD25
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
+$CMP Logo_text_EBD32
 D Open Hardware logo, small
 K Logo
 F ~
@@ -764,6 +869,12 @@ K resistor variable
 F ~
 $ENDCMP
 #
+$CMP R_trim_SMD
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP Rarray_10K
 F https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf
 $ENDCMP
@@ -854,10 +965,26 @@ K Solder Jumper SPDT
 F ~
 $ENDCMP
 #
+$CMP Stack_4L
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
+$CMP Stack_template
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
 $CMP TFO_CS_1P_1S_B82801A1
 D Transformer, single primary, single secondary
 K transformer coil magnet
 F ~
+$ENDCMP
+#
+$CMP TFO_ISO_custom
+F https://katalog.we-online.com/ctm/datasheet/760390012.pdf
 $ENDCMP
 #
 $CMP TL431DBZ
@@ -996,6 +1123,12 @@ $CMP TPS76350_copy
 D Low power 150mA LDO 5.0V fixed output voltage, SOT-23-5
 K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+$CMP TPS7B84_SOT
+D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
+K ldo regulator voltage linear
+F http://www.ti.com/lit/ds/symlink/tps7a7001.pdf
 $ENDCMP
 #
 $CMP TestPoint_Probe
