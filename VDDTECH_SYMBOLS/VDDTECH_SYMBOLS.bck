@@ -116,6 +116,18 @@ K schottky diode common cathode
 F http://www.diodes.com/_files/datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP BF245B
+D 10mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+$ENDCMP
+#
+$CMP BF245C
+D 10mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+$ENDCMP
+#
 $CMP Barrel_Jack_PJ-102AH
 D DC Barrel Jack
 K DC power barrel jack connector
@@ -854,6 +866,12 @@ $CMP NRPV02_Socket_02x24
 D Generic connector, double row, 02x24, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP NX3008NBK
+D 30 V, 400 mA N-channel Trench MOSFET SOT23
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
 $ENDCMP
 #
 $CMP NZL300
