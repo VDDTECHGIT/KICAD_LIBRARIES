@@ -207,6 +207,11 @@ $CMP C_1210_100nF-630V
 D X7R high voltage capacitor
 $ENDCMP
 #
+$CMP C_800B_560pF_RF
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF 0603 X7R 10%
+K X7R capa 0603
+$ENDCMP
+#
 $CMP Capa_Pola_10u_350V
 D Polarized capacitor
 K cap capacitor
@@ -775,6 +780,12 @@ K Logo
 F ~
 $ENDCMP
 #
+$CMP Logo_text_EVK01
+D Open Hardware logo, small
+K Logo
+F ~
+$ENDCMP
+#
 $CMP MBR0520LT1G
 D MBR0520LT1G, Schottky Diode,  0.5A max, 20V, 2-Pin, SOD-123
 F http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF
@@ -880,6 +891,12 @@ $ENDCMP
 #
 $CMP NZL300-die
 F https://www.ti.com/lit/gpn/SN6501-Q1
+$ENDCMP
+#
+$CMP PAD_SMD
+D test point (alternative flag-style design)
+K test point tp
+F ~
 $ENDCMP
 #
 $CMP POT-3310C-001-103L
@@ -996,6 +1013,12 @@ $ENDCMP
 $CMP SolderJumper_3_Open
 D Solder Jumper, 3-pole, open
 K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP Stack_2L
+D Open Hardware logo, small
+K Logo
 F ~
 $ENDCMP
 #
